@@ -1,3 +1,8 @@
+if exists('g:autoloaded_uniboard')
+  finish
+endif
+let g:autoloaded_uniboard = 1
+
 let s:pastefile = $HOME.'/.uniboard'
 
 function! uniboard#Yank()
